@@ -12,6 +12,30 @@ namespace _11_LoShuMagicSquare
         {
         }
 
+        private static void IsMagicSquare()
+        {
+
+            var tempSum = numbers[0, 0] + numbers[0, 1] + numbers[0, 2];
+            // compare rows, start from row 1 because tempSum already hold the sum for row 0
+            for (var i = 1; i < 3; i++)
+            {
+                if (numbers[i, 0] + numbers[i, 1] + numbers[i, 2] != tempSum)
+                    return false;
+            }
+
+            // compare columns
+            for (var i = 0; i < 3; i++)
+            {
+                if (numbers[0, i] + numbers[1, i] + numbers[2, i] != tempSum)
+                    return false;
+            }
+
+            // compare diagonals
+            return  numbers[0, 0] + numbers[1, 1] + numbers[2, 2] == tempSum &&
+                    numbers[0, 2] + numbers[1, 1] + numbers[2, 0] == tempSum;
+
+        }
+
         private static void SwitchCells()
         {
             int[] number1 = new int[2];

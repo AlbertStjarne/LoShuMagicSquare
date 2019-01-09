@@ -1,0 +1,6 @@
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/obj/x86/Debug/_11_LoShuMagicSquare.csprojAssemblyReference.cache
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/obj/x86/Debug/_11_LoShuMagicSquare.csproj.CoreCompileInputs.cache
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/bin/Debug/_11_LoShuMagicSquare.exe
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/bin/Debug/_11_LoShuMagicSquare.pdb
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/obj/x86/Debug/_11_LoShuMagicSquare.exe
+/Users/albertstjarne/Udemy/Csharp_Logical_Puzzle_Games/_11_LoShuMagicSquare/_11_LoShuMagicSquare/obj/x86/Debug/_11_LoShuMagicSquare.pdb

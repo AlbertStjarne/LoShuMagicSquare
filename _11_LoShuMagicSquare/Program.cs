@@ -10,9 +10,34 @@ namespace _11_LoShuMagicSquare
 
         public static void Main(string[] args)
         {
+            int counter = 0;
+            do
+            {
+                counter++;
+                Console.WriteLine(counter);
+                SwitchCells();
+
+
+            } while (!IsMagicSquare());
+
+            DisplayBoard();
+            Console.WriteLine($"It took {counter} tries.");
         }
 
-        private static void IsMagicSquare()
+
+        private static void DisplayBoard()
+        {
+            for (var i = 0; i < 3; i++)
+            {
+                for (var c = 0; c < 3; c++)
+                {
+                    Console.Write(numbers[i, c] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        private static bool IsMagicSquare()
         {
 
             var tempSum = numbers[0, 0] + numbers[0, 1] + numbers[0, 2];

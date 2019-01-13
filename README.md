@@ -3,9 +3,9 @@
 ## Instructions
 This is a game for the Console simulating the moves needed to solve the game Tower of Hanoi.
 
-Open the program in Visual Studio and click play. With brute force, randomly moving the numbers and checking the result and finally presenting one of the solutions and stating the number of tries it took.
+Open the program in Visual Studio and click play. With brute force, randomly switching two numbers until amagic square board is formed, that is a board where the sum of the numbers is the same in all directions. Finally presenting one of the solutions and showing the number of tries it took.
 
-The starting point is a 3 x 3 grid with the number 1 - 9:
+The starting point is a 3 x 3 grid with the numbers 1 - 9:
 
 1     2     3
 
@@ -13,7 +13,7 @@ The starting point is a 3 x 3 grid with the number 1 - 9:
 
 7     8     9
 
-The target is to find one of the eight possible solutions that have the same sum in all directions, horizontal, vertical and diagonal.
+The target is to find one of the eight possible solutions that have the same sum in all directions: horizontal, vertical and diagonal.
 
 The eight possible solutions are:
 
